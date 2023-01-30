@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# YouToo Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was desgned with Material UI and by the wonderous APIs of RapidAPI
 
 ## Available Scripts
 
