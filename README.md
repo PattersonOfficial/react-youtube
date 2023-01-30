@@ -1,4 +1,4 @@
-# YouToo Web Application
+# YouToo Video Media App
 
 This project was desgned with Material UI and by the wonderous APIs of RapidAPI
 
