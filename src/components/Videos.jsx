@@ -7,7 +7,7 @@ const Videos = ({ videos }) => {
     <Stack
       direction='row'
       flexWrap='wrap'
-      justifyContent='start'
+      justifyContent='center'
       gap={2}>
 
         {videos.map((item, index) => (
