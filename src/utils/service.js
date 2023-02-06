@@ -3,12 +3,11 @@ const axios = require('axios');
 const base_url = 'https://youtube-v31.p.rapidapi.com';
 
 const options = {
-  method: 'GET',
   params: {
     maxResults: '50',
   },
   headers: {
-    'X-RapidAPI-Key': '31b5eca088msh6b6e2d8890033e5p18b7b0jsn48c57368f1bb',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 };

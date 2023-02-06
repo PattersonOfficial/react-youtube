@@ -7,7 +7,7 @@ import { fetchFromAPI } from '../utils/service';
 const Feed = () => {
   const date = new Date().getFullYear();
 
-  const [selectedCategory, setSelectedCategory] = useState('New');
+  const [selectedCategory, setSelectedCategory] = useState('Home');
   const [videos, setVideos] = useState([]); 
 
   useEffect(() => {
@@ -49,7 +49,9 @@ const Feed = () => {
           fontWeight='bold'
           mb={2}
           sx={{ color: 'white'}}>
-          {selectedCategory} <span style={{ color: '#FC1503' }}> Videos</span>
+          {selectedCategory} <span style={{ color: '#FC1503' }}> 
+          Videos
+          </span>
         </Typography>
 
         {/* Videos Component */}
